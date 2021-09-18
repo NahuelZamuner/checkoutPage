@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./CSS/assets/carro.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Checkout</h1>
+    </header>
+    <main class="main">
+        <section class="shopping-cart">
+            <div class="shopping-cart__item">
+                <img src="./CSS/assets/photo1.png" alt="" class="cart-item__img">
+
+                <div class="cart-item__info">
+                    <h4 class="item-info__title">Vintage Backbag</h4>
+
+                    <p class="item-info__offer">$54.99</p> <span class="item-info__price">$94.99</span>
+
+                    <div class="item-info__add">
+                        <button class="info-add">-</button>
+                        <p class="info-add__amount">1</p> <button class="info-add">+</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="shopping-cart__item">
+                <img src="./CSS/assets/photo2.png" alt="" class="cart-item__img">
+
+                <div class="cart-item__info">
+                    <h4 class="item-info__title">Vintage Backbag</h4>
+
+                    <p class="item-info__offer">$54.99</p> <span class="item-info__price">$94.99</span>
+
+                    <div class="item-info__add">
+                        <button class="info-add">-</button>
+                        <p class="info-add__amount">1</p> <button class="info-add">+</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="hr">
+            <div class="cart-price">
+                <p class="cart-price__title">Shipping</p>
+                <p class="cart-price__number">$19</p>
+            </div>
+            <hr>
+            <div class="cart-price">
+                <p class="cart-price__title">Total</p>
+                <p class="cart-price__number">$148.98</p>
+            </div>
+        </section>
+
+        <section>
+            <section class="contact">
+
+                <h2 class="contact-title">Contact infomation</h2>
+
+                <form action="post" class="form" autocomplete="off">
+                    <ul class="form-list">
+                        <li class="form-list__item">
+                            <label for="" class="item-name">E-mail</label>
+                            <input type="text" id="mail" name="" placeholder="Enter your email..."
+                                class="item-input placeholder-mail" />
+                        </li>
+
+                        <li class="form-list__item">
+                            <label for="" class="item-name">Phone</label>
+                            <input type="text" id="phone" name="" placeholder="Enter your phone..."
+                                class="item-input placeholder-phone" />
+                        </li>
+                    </ul>
+                </form>
+            </section>
+
+            <section class="contact">
+
+                <h2 class="contact-title">Shipping address</h2>
+
+                <form action="post" class="form" autocomplete="off">
+                    <ul class="form-list">
+                        <li class="form-list__item">
+                            <label for="" class="item-name">Full name</label>
+                            <input type="text" id="name" name="" placeholder="Enter your name..."
+                                class="item-input placeholder-user" />
+                        </li>
+
+                        <li class="form-list__item">
+                            <label for="" class="item-name">Address</label>
+                            <input type="text" id="address" name="" placeholder="Your address..."
+                                class="item-input placeholder-home" />
+                        </li>
+
+                        <li class="form-list__item">
+                            <label for="" class="item-name">City</label>
+                            <input type="text" id="city" name="" placeholder="Your city..."
+                                class="item-input placeholder-city" />
+                        </li>
+                    </ul>
+                    <ul class="form-list">
+                        <li class="form-list__item">
+                            <label for="" class="item-name">Country</label>
+                            <input type="text" id="country" name="" placeholder="Your country..."
+                                class="item-mini__input placeholder-country" />
+                        </li>
+
+                        <li class="form-list__item">
+                            <label for="" class="item-name">Postal code</label>
+                            <input type="text" id="postal-code" name="" placeholder="Your postal code..."
+                                class="item-mini__input placeholder-pin" />
+                        </li>
+                    </ul>
+                    <label for="" class="form-check"><input type="checkbox" name="" id=""> Save this information for
+                        next time</label>
+                    <button type="submit" class="form-button">Continue</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <span class="footer-text">created by <a href="https://github.com/NahuelZamuner" target="_blank"
+                class="footer-link">Nahuel Zamuner</a> - <a href="https://devchallenges.io/" class="footer-link"
+                target="_blank">devChallenges.io</a></span>
+    </footer>
+</body>
+
+</html>
